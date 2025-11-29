@@ -39,7 +39,7 @@ export default function LandingPage() {
             <p className="absolute font-['Inter:Regular',sans-serif] font-normal h-[123px] leading-[normal] left-[-755px] not-italic text-[40px] text-black top-[-603px] w-[508px] z-10">Convierte tus ideas en contenido mágico</p>
             
             <button
-              onClick={() => { window.location.href = "https://www.hola.com/"; }}
+              onClick={() => { window.location.href = "https://ireal-app.com/"; }}
               className="absolute bg-[#8a0f1c] h-[74px] left-[-759px] rounded-[45px] top-[-491px] w-[423px] hover:bg-[#6d0c16] hover:shadow-[0_0_40px_rgba(138,15,28,1),0_0_60px_rgba(138,15,28,0.6),0_0_80px_rgba(138,15,28,0.3)] hover:scale-105 transition-all duration-300 cursor-pointer"
             >
               <span className="font-['Playfair_Display:Bold',sans-serif] text-[24px] text-white tracking-[0.5px]">
@@ -78,7 +78,7 @@ export default function LandingPage() {
               
               {/* CTA Button */}
               <button
-                onClick={() => { window.location.href = "https://www.hola.com/"; }}
+                onClick={() => { window.location.href = "https://ireal-app.com/"; }}
                 className="relative z-10 w-full max-w-[400px] mt-16 bg-[#8a0f1c] hover:bg-[#6d0c16] hover:shadow-[0_0_40px_rgba(138,15,28,1),0_0_60px_rgba(138,15,28,0.6),0_0_80px_rgba(138,15,28,0.3)] hover:scale-105 transition-all duration-300 rounded-[45px] py-4 cursor-pointer"
               >
                 <span className="font-['Playfair_Display:Bold',sans-serif] text-[18px] text-white">

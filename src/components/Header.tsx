@@ -66,7 +66,7 @@ export default function Header({ currentPage }: HeaderProps) {
           {/* CTA Button */}
           <div className="absolute right-[40px] top-[18px]">
             <button
-              onClick={() => { window.location.href = "https://www.hola.com/"; }}
+              onClick={() => { window.location.href = "https://ireal-app.com/"; }}
               className="bg-[#8a0f1c] hover:bg-[#6d0c16] hover:shadow-[0_0_40px_rgba(138,15,28,1),0_0_60px_rgba(138,15,28,0.6),0_0_80px_rgba(138,15,28,0.3)] hover:scale-105 transition-all duration-300 rounded-[45px] px-6 py-3 cursor-pointer"
             >
               <span className="font-['Playfair_Display:Bold',sans-serif] text-[18px] text-white whitespace-nowrap">
@@ -105,7 +105,7 @@ export default function Header({ currentPage }: HeaderProps) {
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  window.location.href = "https://www.hola.com/";
+                  window.location.href = "https://ireal-app.com/";
                 }}
                 className="bg-[#8a0f1c] hover:bg-[#6d0c16] hover:shadow-[0_0_40px_rgba(138,15,28,1),0_0_60px_rgba(138,15,28,0.6),0_0_80px_rgba(138,15,28,0.3)] hover:scale-105 transition-all duration-300 rounded-[45px] px-6 py-3 cursor-pointer mt-2"
               >
